@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@1,300&family=Heebo&family=Roboto+Condensed&display=swap');
+
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin:auto
+}
