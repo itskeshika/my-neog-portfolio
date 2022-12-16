@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@1,300&family=Heebo&family=Roboto+Condensed&display=swap');
 
 :root{
-    --primary-color: #dc2626;
+    --primary-color: #f87171;
     --secondary-color: #fecaca;
+    --tertiary-color: #fee2e2;
 }
 
 body{
@@ -89,9 +90,52 @@ hr{margin:1rem 0rem}
 }
 
 .hero .hero-heading{
-color: var(--secondary-color);
-padding-top: 1rem;
+    text-align: center;
+ color: var(--secondary-color);
+ padding-top: 1rem;
 }
+
+.hero .hero-heading .heading-inverted{
+    color:var(--primary-color);
+}
+
+.section h3{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--tertiary-color);
+}
+
+.section{
+    padding: 2rem;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer .ul {
+    padding-inline-start: 0px;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+
+
+
 
 
 
