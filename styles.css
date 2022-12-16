@@ -1,60 +1,62 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@1,300&family=Heebo&family=Roboto+Condensed&display=swap');
 
-:root{
+:root {
     --primary-color: #f87171;
     --secondary-color: #fecaca;
     --tertiary-color: #fee2e2;
 }
 
-body{
+body {
     font-family: 'Hanken Grotesk', sans-serif;
     box-sizing: border-box;
 
 }
-hr{margin:1rem 0rem}
 
-.container{
+hr {
+    margin: 1rem 0rem
+}
+
+.container {
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
-.container-center{
+.container-center {
     max-width: 600px;
-    margin:auto
+    margin: auto
 }
 
 /**links**/
 
 
-.link{
-    text-decoration:none;
-    padding:0.5rem 1rem;
-    border-radius:0.5rem;
-    border:1px solid;
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid;
 }
 
-.primary-link{
-    background-color:var(--primary-color);
+.primary-link {
+    background-color: var(--primary-color);
     border-color: var(--primary-color);
-    color:white;
+    color: white;
 }
 
-.secondary-link{
-    color:var(--primary-color);
+.secondary-link {
+    color: var(--primary-color);
     border-color: var(--primary-color);
 }
 
-.list-non-bullet{
-    list-style:none;
+.list-non-bullet {
+    list-style: none;
 }
 
-.list-item-inline>li{
-    display:inline;
-    padding:0.5rem 0.5rem
+.list-item-inline>li {
+    display: inline;
+    padding: 0.5rem 0.5rem
 }
 
-.navigation{
+.navigation {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
@@ -62,56 +64,59 @@ hr{margin:1rem 0rem}
     border-top-right-radius: 1rem;
 }
 
-.navigation .nav-pills{
-    text-align:right;
+.navigation .nav-pills {
+    text-align: right;
 }
 
-.navigation .nav-brand{
+.navigation .nav-brand {
     font-weight: bold;
     font-size: 1.1rem;
 }
 
-.navigation .display{
+.navigation .display {
+    text-decoration: none;
     color: white;
 }
 
-.navigation .link-active{
+.navigation .link-active {
     font-weight: bold;
 }
 
-.hero{
+.hero {
     padding: 2rem;
 }
 
-.hero .keshika-img{
-    max-width: 350px;
+.hero .keshika-img {
+    width: 350px;
+    height: 350px;
     display: block;
     margin: auto;
+    border-radius: 100%;
 }
 
-.hero .hero-heading{
+.hero .hero-heading {
     text-align: center;
- color: var(--secondary-color);
- padding-top: 1rem;
+    color: var(--secondary-color);
+    padding-top: 1rem;
 }
 
-.hero .hero-heading .heading-inverted{
-    color:var(--primary-color);
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
 }
 
-.section h3{
+.section h3 {
     text-align: center;
 }
 
-.ow{
+.ow {
     background-color: var(--tertiary-color);
 }
 
-.section{
+.section {
     padding: 2rem;
 }
 
-.footer{
+.footer {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
@@ -120,7 +125,7 @@ hr{margin:1rem 0rem}
     border-bottom-left-radius: 1rem;
 }
 
-.footer .link{
+.footer .link {
     color: white;
 }
 
@@ -128,14 +133,7 @@ hr{margin:1rem 0rem}
     padding-inline-start: 0px;
 }
 
-.footer .footer-header{
+.footer .footer-header {
     font-weight: bold;
     font-size: large;
 }
-
-
-
-
-
-
-
